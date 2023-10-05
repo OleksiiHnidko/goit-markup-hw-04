@@ -397,6 +397,21 @@ ul {
   background-color: #31d0aa;
   border-color: #31d0aa;
 }
+/*  */
+.team-soclink-item {
+  width: 40px;
+  height: 40px;
+}
+.team-soclink-a {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*  */
 .section-portfolio-list-item:hover .text-cover-wrap {
   transform: translateY(0%);
 }
@@ -417,6 +432,10 @@ ul {
   transition: transform 300ms linear;
 }
 .portfolio-cover-text {
+  top: 0;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
   color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
@@ -635,7 +654,9 @@ ul {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-soc-link:hover,
+.footer-soc-link:hover {
+  background-color: #31d0aa;
+}
 .footer-soc-link:focus {
   background-color: #31d0aa;
 }
