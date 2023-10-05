@@ -369,12 +369,12 @@ img {
 .svg-soc {
   fill: #f4f4fd;
 }
-.team-soclink:hover {
+/* .team-soclink:hover { 
   background-color: #404bbf;
-}
-.team-soclink:focus {
+}*/
+/* .team-soclink:focus { 
   background-color: #404bbf;
-}
+}*/
 /* ===================================================================================== */
 /*====================================== Section 4====================================== */
 .section-portfolio {
@@ -468,7 +468,6 @@ img {
 .cover-wrap {
   position: relative;
   overflow: hidden;
-  position: absolute;
   top: 0;
   height: 100%;
   display: flex;
