@@ -369,12 +369,12 @@ img {
 .svg-soc {
   fill: #f4f4fd;
 }
-/* .team-soclink:hover { 
+.team-soclink-a:hover {
   background-color: #404bbf;
-}*/
-/* .team-soclink:focus { 
+}
+.team-soclink-a:focus {
   background-color: #404bbf;
-}*/
+}
 /* ===================================================================================== */
 /*====================================== Section 4====================================== */
 .section-portfolio {
