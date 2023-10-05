@@ -570,3 +570,8 @@ img {
 .svg-footer {
   fill: #f4f4fd;
 }
+/*  */
+.svg-footer:hover {
+  background-color: #31d0aa;
+}
+/*  */
